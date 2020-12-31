@@ -1,1 +1,1 @@
-io.gitlab.arturbosch.detekt.sample.extensions.SampleProvider
+cloud.lottify.detekt.rules.ImportRulesProvider

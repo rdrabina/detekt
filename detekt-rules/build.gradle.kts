@@ -9,6 +9,7 @@ dependencies {
     implementation(project(":detekt-rules-naming"))
     implementation(project(":detekt-rules-performance"))
     implementation(project(":detekt-rules-style"))
+    implementation(project(":detekt-sample-extensions"))
 
     testImplementation(project(":detekt-core"))
     testImplementation(project(":detekt-parser"))

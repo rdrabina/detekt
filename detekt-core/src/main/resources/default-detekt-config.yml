@@ -39,6 +39,11 @@ output-reports:
   # - 'XmlOutputReport'
   # - 'HtmlOutputReport'
 
+imports:
+  active: true
+  AdaptersImportInDomainPackage:
+    active: true
+
 comments:
   active: true
   excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/jsTest/**', '**/iosTest/**']
